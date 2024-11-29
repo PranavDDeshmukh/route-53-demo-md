@@ -13,10 +13,7 @@
 - Weighted routing policy can be applied when there are multiple resources that perform the same function e.g., webservers serving the same site
 - Weighted resource record sets allow associating multiple resources with a single DNS name.
 - Weighted routing policy use cases include
-  
-# $${\color {red} \textbf {load balancing between regions:}}$$
-# $${\color {red} \textbf {A/B testing and piloting new versions of software:}}$$
-
+#### load balancing between regions
 - To create a group of weighted resource record sets, two or more resource record sets can be created that has the same combination of DNS name and type, and each resource record set is assigned a unique identifier and a relative weight.
 
 ## 3:Latency-based Routing (LBR) Policy
