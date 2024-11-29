@@ -13,8 +13,10 @@
 - Weighted routing policy can be applied when there are multiple resources that perform the same function e.g., webservers serving the same site
 - Weighted resource record sets allow associating multiple resources with a single DNS name.
 - Weighted routing policy use cases include
-**load balancing between regions*
-**A/B testing and piloting new versions of software*
+  
+**load balancing between regions**
+
+**A/B testing and piloting new versions of software**
 - To create a group of weighted resource record sets, two or more resource record sets can be created that has the same combination of DNS name and type, and each resource record set is assigned a unique identifier and a relative weight.
 
 ## 3:Latency-based Routing (LBR) Policy
@@ -32,8 +34,10 @@
 ## 5:Geolocation Routing Policy
 - Geolocation routing policy helps respond to DNS queries based on the geographic location of the users i.e. location from which the DNS queries originate.
 - Geolocation routing policy use cases include
-**localization of content and presenting some or all of the website in the user’s language*
-**restrict distribution of content to only the locations in which you have distribution rights.*
-**balancing load across endpoints in a predictable, easy-to-manage way, so that each user location is consistently routed to the same endpoint.*
+- 
+**localization of content and presenting some or all of the website in the user’s language**
+**restrict distribution of content to only the locations in which you have distribution rights.**
+**balancing load across endpoints in a predictable, easy-to-manage way, so that each user location is consistently routed to the same endpoint.**
+  
 - Geolocation works by mapping IP addresses to locations, which might not be mapped to an exact geographic location.
 - A default resource record set can be created to handle these queries and also the ones which do not have an explicit record set created.
